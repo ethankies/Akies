@@ -21,7 +21,7 @@ var bb = 181;
 function setup() {
     //init vars that need to be in setup
     eclipseHeight = height / 2;
-    createCanvas(800, 480);
+    createCanvas(800, 480 - 25);
 
     //fullScreen();
     noStroke();
