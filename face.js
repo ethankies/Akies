@@ -21,8 +21,8 @@ var bb = 181;
 function setup() {
     //init vars that need to be in setup
     eclipseHeight = height / 2;
-    createCanvas(800, 480 - 25);
-
+    createCanvas(780, 480 - 50);
+    
     //fullScreen();
     noStroke();
     ellipseMode(CENTER);
@@ -43,7 +43,9 @@ function setup() {
 function draw() {
     Controller();
     //background(200)
+    
     //black square around screen
+    background(0)
     //draw expression
     
     expression();
@@ -61,7 +63,7 @@ function draw() {
 
     // square around face
     noFill();
-    strokeWeight(15);
+    // strokeWeight(15);
     rect(width / 2, height / 2, width, height);
 } //end draw
 
